@@ -1,0 +1,26 @@
+.fa-star-o{
+  margin: 0.5em;
+  font-size: 25px;
+}
+span{
+  display: inline-block;
+  margin: 0.5em;
+  text-align: center;
+
+  background-color: grey;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+.selected{
+  background-color: lightgrey;
+  color: #ddd;
+  cursor: not-allowed;
+
+}
+.used{
+background-color: #aaddaa;
+color: #99bb99;
+cursor: not-allowed;
+}
